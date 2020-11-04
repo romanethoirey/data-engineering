@@ -1,0 +1,34 @@
+<HTML>
+<BODY bgcolor="green">
+<form method="POST" action="">
+    <center>
+    <H1>Add New User </H1> <br>
+    User ID <input type = "text" name = "uid" /> <br>
+    First Name <input type = "text" name= "fname" /> <br>
+    Last Name <input type = "text" name = "lname" /> <br>
+    <input type="hidden" name="form_type" value="add_user"/>
+    <input type = "submit">
+    </center>
+</form>
+
+<form method="POST" action="">
+    <center>
+    <H1>Add Credits to User </H1> <br>
+    User ID <input type = "text" name= "uid" /> <br>
+    Credit <input type = "number" name = "credit" /> <br>
+    <input type="hidden" name="form_type" value="add_credit"/>
+    <input type = "submit">
+    </center>
+</form>
+
+<form method="POST" action="">
+    <center>
+    <H1>View User </H1> <br>
+    User ID <input type = "text" name= "uid" /> <br>
+    <input type="hidden" name="form_type" value="view_user"/>
+    <input type = "submit">
+    </center>
+</form>
+
+</BODY>
+</HTML>
